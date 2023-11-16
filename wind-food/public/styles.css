@@ -536,14 +536,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.col-span-1{
-  grid-column: span 1 / span 1;
-}
-
-.col-span-2{
-  grid-column: span 2 / span 2;
-}
-
 .m-4{
   margin: 1rem;
 }
@@ -578,10 +570,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .justify-center{
@@ -715,6 +703,20 @@ video {
   text-transform: uppercase;
   --tw-text-opacity: 1;
   color: rgb(136 136 131 / var(--tw-text-opacity));
+}
+
+.btn{
+  cursor: pointer;
+  border-radius: 9999px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 @media (min-width: 640px){
